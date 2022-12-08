@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:url(photos/netflix\ dark.jfif);
+    background-repeat: no-repeat;
+    background-color: rgb(54, 53, 53);
+  background-size: 1515px 650px;
+    color: white;
+    background-blend-mode: dark; 
+    
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+nav .img img{
+   width: 17%;
+}
+.butto{
+    display: flex;
+    
+}
+
+.signinbutton{
+   margin-inline-end: 50px;
+   margin-top: 30px;
+}
+.signinbutton{
+    height: 40px;
+    width: 90px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;  
+    font-size: 16px;
+}
+.butto select{
+    height: 40px;
+    width: 100px;
+    border-radius:4px;
+   background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    margin-right: 50px;
+    margin-top: 30px;
+    
+
+}
+.butto option{
+    text-align:center;
+    color: black;
+}
+.mainbody{
+text-align: center;
+    
+}
+.mainbody h1{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mainbody h3{
+    font-size: 35px;
+    padding-top: 30px;
+    padding-bottom: 35px;
+
+}
+.mainbody p{
+    font-size: 22px;
+    
+    padding-bottom: 15px;
+    
+}
+.f12{
+    margin-left: 150px;
+    margin-bottom: 150px;
+    margin-right: 500px;
+    
+}
+.f12 img{
+    width: 200%;
+    padding-top: 100px;
+
+}
+.f11{
+    margin-left: 210px;
+    padding-top: 150px ;
+    margin-bottom: 100px;
+    width: 2300px;
+     
+    
+
+}
+.f11 h1{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 15px;
+  
+
+}
+.f11 p{
+    
+    font-size:25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input{
+    text-align: center;
+}
+.first1{
+    margin-top: 8px;
+    background-color: black;
+    display: flex;
+    
+}
+.input input{
+   width: 450px;
+   height: 58px;
+   font-size: 22px;
+}
+.input button{
+    width: 280px;
+    height: 65px;
+    background-color: red;
+    margin-left: -5px;    
+    font-weight: bold;  
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    
+    
+}
+.first2{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-top: 8px;
+    
+}
+.f22{
+    width: 50%;
+
+}
+.f21{
+    width: 50%;
+    margin-left: 180px;
+    padding-bottom: 150px;
+}
+.f22 h1{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 15px;
+    padding-top: 100px;
+ 
+}
+.f22 p{
+    
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.f21 img{
+    width: 500px;
+}
+
+
+.input{
+    padding-bottom: 182px;
+}
+.buttons{
+    background-color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 60px;
+    
+    
+}
+.buttons button{
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    width: 770px;
+    height: 60px;
+    justify-content: center;
+    font-size: 20px;
+    padding-left: 20px;
+    background-color: rgb(76, 76, 76);
+    color: white;
+    margin-bottom: 10px;
+
+   
+    
+
+}
+.buttons h1{
+    padding-top: 70px;
+    padding-bottom: 35px;
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+  
+}
+.f33{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1px;
+    margin-top: 50px;
+}
+.input2{
+    background-color: black;
+   display: flex;
+   justify-content: center;
+   padding-bottom: 30px;
+    
+}
+.input2 input{
+    width: 500px;
+    height: 60px;
+    font-size: 22px;
+}
+.input2 button{
+    width: 280px;
+    height: 65px;
+    background-color: red;
+    margin-left: -5px;    
+    font-weight: bold;  
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+.footer{
+    height: 230px;
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+.list p{
+   
+    padding-bottom: 20px;
+    
+}
+
+.select{
+    color: white;
+}
+.options{
+
+    position:absolute;
+    float: left;
+    margin-top: 150px;
+    margin-right: 1195px;
+    padding-top: 10px;
+
+    
+    
+    
+    
+}
+.options select{
+    width: 100px;
+    height: 30px;
+    margin-left: 30px;
+    background: none;
+    color: white;
+  
+}
+.options select option{
+    color: black;
+}
+
+
+
+
+
